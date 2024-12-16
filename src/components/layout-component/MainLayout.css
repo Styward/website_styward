@@ -1,0 +1,14 @@
+#page-content-wrapper {
+    flex-grow: 1;
+    transition: margin-left 0.3s ease;
+    margin-left: 40px; /* Default margin */
+  }
+
+  #wrapper {
+    display: flex;
+    transition: all 0.3s ease;
+  }
+
+  .app-container {   
+    flex-direction: column;
+  }

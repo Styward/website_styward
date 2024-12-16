@@ -1,0 +1,58 @@
+.sidebar.close + #page-content-wrapper {
+    margin-left: 0px; /* Match the width of the closed sidebar */
+  }
+
+/*menu hamburguer*/
+.hamburger-menu {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+    z-index: 1050; 
+    /* color: #003D5B; */
+    font-size: 1.5rem;
+}
+/*end menu hamburguer*/
+
+.sidebar{
+    border: 2px solid #08fdd8;
+    position: fixed;
+    top: 0;
+    left: 0; /* Changed from -250px */
+    width: 50px; /* Adjust width when open */
+    height: 100%;
+    background-color: black;
+    transition: left 0.3s ease, width 0.3s ease;
+    z-index: 1040;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+}
+
+.sidebar.open {
+    left: 0; /* Fully visible */
+}
+
+.sidebar.close {
+    left: -80px; /* Hidden when closed */
+}
+
+.content-menu-items{
+    margin-top: 150px;
+}
+
+.menu-items{
+    border: none;
+    display: inline;
+}
+
+.icons-sidebar{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.icons-sidebar.active{
+    color: #08fdd8;
+}

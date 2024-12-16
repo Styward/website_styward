@@ -1,0 +1,14 @@
+.background-home{
+    padding-top: 50px;
+    width: 100% !important;
+    background-image: url('./../../assets/img/background-home-dark.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+.contain-main-home{
+    padding: 10% 0% 0% 5%;
+}
