@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Styward.github.io/personal-webSite",
+  "homepage": "https://Styward.github.io/webSite_styward",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
